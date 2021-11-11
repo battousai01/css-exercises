@@ -80,6 +80,7 @@ body {
   .popup-modal selector, for the reasons outlined above 
   .pop-up-modal.show
 */
+/*Set Style of close modal box when open modal button not click*/
 .popup-modal {
   visibility: hidden;
   transition: margin-top 0.5s ease-out, opacity 0.5s ease-out,
@@ -91,6 +92,7 @@ body {
   can easily be added by just adding this selector to the main 
   .popup-modal selector
 */
+/*Set position and Style of close modal box*/
 .popup-modal.show {
   width: 30%;
   height: 15%;
@@ -107,6 +109,7 @@ body {
   Keep this selector separate from the main '.popup-modal.show'
   selector.
 */
+/*Set Style of close modal box when  click open button */
 .popup-modal.show {
   opacity: 1;
   visibility: visible;
