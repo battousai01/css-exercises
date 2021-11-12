@@ -74,8 +74,8 @@ ul {
         7.the space between header and element in header is too close.So we add space of header by padding
             .header{
               display: flex
-              padding: 8px
               align-items: center
+              justify-content: space-between
               padding: 8px
             }
             
