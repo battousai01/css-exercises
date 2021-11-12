@@ -37,7 +37,7 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 8px;/* add space between item in ul element  */
+  gap: 8px;/* add space between item in ul element(add space between <li>)  */
 }
 
 /*Note  1. display: flex in header to force the element in row position
