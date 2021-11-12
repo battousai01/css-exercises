@@ -39,3 +39,47 @@ ul {
   padding: 0;
   gap: 8px;
 }
+
+/*Note  1. display: flex in header to force the element in row position
+            .header{
+              display: flex
+            }
+        
+        2. set vertical center position for element in header
+            .header{
+              display: flex
+              padding: 8px
+              align-items: center
+            }
+        3. set space between each element in header
+            .header{
+              display: flex
+              padding: 8px
+              justify-content: space-between
+            }
+        4. display: flex in ul to force the element in row position 
+            ul{
+              display: flex
+            }
+        5. set padding 0 in ul to erase space between content and border of ul
+            ul{
+              display: flex
+              padding: 0
+            }
+        6. add space between element in ul 
+            ul{
+              display: flex
+              padding: 0
+              gap: 8px
+            }
+        7.the space between header and element in header is too close.So we add space of header by padding
+            .header{
+              display: flex
+              padding: 8px
+              align-items: center
+              padding: 8px
+            }
+            
+
+          
+*/
