@@ -45,3 +45,92 @@ body {
 .info {
   max-width: 200px;
 }
+
+/*Note  Divide the webpage into 2 part
+        1. Title
+        2. Content(Image and Description)
+
+        1.  Center Title position
+            
+            body {
+              text-align: center;
+            }
+
+        2.  Build container to store all item content 
+
+            <div class="container">
+                
+                  <img src="./images/barberry.png" alt="barberry">
+                  <div class="text">This is a type of plant. We love this one.</div>
+              
+                
+                  <img src="./images/chilli.png" alt="chili">
+                  <div class="text">This is another type of plant. Isn't it nice</div>
+                
+                
+                  <img src="./images/pepper.png" alt="pepper">
+                  <div class="text">We have so many plants. Yay plants.</div>
+               
+              
+                  <img src="./images/saffron.png" alt="saffron">
+                  <div class="text">I'm running out of things to say about plants.</div>
+                
+              </div>
+
+        3.  force the element in the container in row position
+
+            .container{
+                display: flex;
+            }
+
+        4.  text is on the right side of the picture but we need  the text is under the picture.
+            Do it by group the text and the picture element together in container
+
+            <div class="container">
+                <div class="info">
+                  <img src="./images/barberry.png" alt="barberry">
+                  <div class="text">This is a type of plant. We love this one.</div>
+                </div>
+                <div class="info">
+                  <img src="./images/chilli.png" alt="chili">
+                  <div class="text">This is another type of plant. Isn't it nice</div>
+                </div>
+                <div class="info">
+                  <img src="./images/pepper.png" alt="pepper">
+                  <div class="text">We have so many plants. Yay plants.</div>
+                </div>
+                <div class="info">
+                  <img src="./images/saffron.png" alt="saffron">
+                  <div class="text">I'm running out of things to say about plants.</div>
+                </div>
+              </div>
+
+          5. set vertical and horizontal center to item in the container
+              
+              .container{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+              }
+
+          6. set space between title and content
+
+              title{
+                  margin-bottom: 32px;
+              }
+
+          7. set space between item in content container
+
+            .container{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 52px;
+              }
+
+            8. set width of the item
+
+            .info{
+                max-width: 200px;
+            }
+*/
