@@ -68,3 +68,83 @@ ul {
   align-items: center;
   gap: 16px;
 }
+/*Note  1. build left container to store item that display on the left side
+   
+    <div class="left">
+      <div class="logo">
+        LOGO
+      </div>
+      <ul class="links">
+        <li><a href="google.com">link-one</a></li>
+        <li><a href="google.com">link-two</a></li>
+        <li><a href="google.com">link-three</a></li>
+      </ul>
+    </div>
+          
+          2. build right container to store item that display on the right side
+              
+   <div class="right">  
+      <button class="notifications">
+        1 new notification
+      </button>
+      <div class="profile-image"></div>
+    </div>
+        
+          3. force the element in the header to display in row by display:flex
+
+    .header{
+        display: flex;
+        }
+
+          4. vertical center element in the header
+     
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+          5. force the element in the left and right container to display in row 
+
+      .left, .right {
+          display: flex;
+       
+       }
+
+          6. vertical center element in the left and right container
+
+      .left, .right {
+          display: flex;
+          align-items: center;
+
+        }
+
+          7. force the element in <ul> to display in row
+      
+      ul{
+          display: flex;
+      }
+
+          8. add space between item in <ul> (add space between <li>)
+      
+      ul{
+          display: flex;
+          gap: 8px;
+      }
+
+          9. add space between item in the left and right container
+
+      .left, .right {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+        }
+
+          10. add space in header container 
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+        }
+
+*/
