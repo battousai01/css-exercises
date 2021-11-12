@@ -48,13 +48,12 @@ ul {
         2. set vertical center position for element in header
             .header{
               display: flex
-              padding: 8px
               align-items: center
             }
         3. set space between each element in header
             .header{
               display: flex
-              padding: 8px
+              align-items: center
               justify-content: space-between
             }
         4. display: flex in ul to force the element in row position 
