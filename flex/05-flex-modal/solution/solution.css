@@ -90,3 +90,59 @@ button.cancel {
 .text {
   margin-bottom: 16px;
 }
+/*Note   Divide webpage into 2 part
+          1. ! Icon
+          2.  content part
+
+        1. Build container to store all item content
+
+          <div class="container">
+              <div class="header">Are you sure you want to do that?</div>
+              <div class="close-button">✖</div>
+              <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
+              <button class="continue">Continue</button>
+              <button class="cancel">Cancel</button>
+          </div> 
+
+        2.  We need header text and X icon align together .So we need to build container to store this 2 item
+
+          <div class="header">Are you sure you want to do that?
+              <div class="close-button">✖</div>
+          </div>
+
+        3.  We need Icon ! and content in the row position and modal container is the container that store all item in the page.
+            We force them into row position by display: flex 
+
+          .modal{
+              display: flex;
+          }
+
+        4. The Icon ! is shrink so we need to unshrink it
+
+          .icon{
+              flex-shrink: 0;
+           }
+
+        5.  We need the header title and the Icon x are align together . So we do it by display: flex
+
+          .header{
+              
+              display: flex;
+           }
+
+        6.  We need the Icon X is at the right of page. Do it by justify-content: space-between;
+
+        .header{
+            
+            display: flex;
+            justify-content: space-between;/*set equal space to between item in the container */ 
+         }
+
+        7.  We need padding in the modal
+
+        .modal{
+            display: flex;
+            padding: 16px;
+        } 
+
+*/
