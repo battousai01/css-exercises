@@ -154,4 +154,17 @@ button.cancel {
             font-weight: 700;
             font-size: 18px;
         }
+
+        9.  Header and text are too close. So add space between them
+
+        .header{
+            border: 1px solid brown;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 18px;
+            margin-bottom: 8px;
+          }
+
+        10. The text part and the button part is too close. So add space between them
 */
