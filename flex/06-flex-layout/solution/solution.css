@@ -68,3 +68,122 @@ ul {
   padding: 0;
   gap: 16px
 }
+
+/*  Note  In html webpage has been divide into 3 part 
+            1. header
+            2. content
+            3. footer
+
+          1.  Header container store 2 <ul> element and we want to position them in row. Do this by dispaly: flex. for header container
+              
+              .header{
+                  display: flex;
+              }
+
+          2.  We want the link is position in 1 line. Do this by display: flex to <ul>
+
+              ul{
+                  display: flex;
+              }
+
+          3.  Remove Bullet in left link
+
+              .ul{
+                  display: flex;
+                  list-style-type: none;
+              }
+
+          4.  Add space between link item
+
+              .ul{
+                  display: flex;
+                  list-style-type: none;
+                  gap: 16px;
+              }
+              
+          5.  Set link to the left and right of the page
+
+              .header{
+                  display: flex;
+                  justify-content: space-between;
+              }
+
+          6.  Padding to Header 
+
+               .header{
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 16px;  
+              }
+
+          7.  The footer have the same pattern as Header. So wrap it
+
+                .header,.footer{
+                  display: flex;
+                  justify-content: space-between;
+                  padding: 16px;  
+              }
+          
+          8.  Add padding to button          
+              
+                button{
+                  padding: 8px 16px;
+                }
+
+          9.  Set footer background-color
+
+                footer{
+                  background-color: #eeeeee;
+                }
+
+          10. We need footer stick to the bottom
+            
+              body{
+                display: flex;
+                flex-direction: column;
+              }
+
+          11. center vertical and horizontal position to the content
+            
+              .content{
+                  display: flex;
+                  flex-direction: column;/* force input box to under logo */
+                  justify-content: center;
+                  align-items: center;
+                  flex: 1; /* force the item to use all space in the container */
+              }
+
+          
+          12. Space of footer is overlapped with content and space of header too far from the top because of margin in <ul>. Remove it
+
+              ul{
+                  display: flex;
+                  list-style-type: none;
+                  gap: 16px;
+                  margin: 0;
+              }
+
+          13. Link position is not in the most left and right because of padding in <ul> .Remove it
+
+               ul{
+                  display: flex;
+                  list-style-type: none;
+                  gap: 16px;
+                  margin: 0;
+                  padding: 0;
+              }
+          
+          14. Change color of text in link
+
+              a {
+                color: #888;
+  
+              }        
+
+          15. Remove underline of link
+
+              a {
+                color: #888;
+                text-decoration: none;
+              }
+*/
