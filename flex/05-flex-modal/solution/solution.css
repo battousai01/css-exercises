@@ -144,5 +144,14 @@ button.cancel {
             display: flex;
             padding: 16px;
         } 
+  
+        8.  We need bold and larger size title header
 
+        .header{
+            border: 1px solid brown;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 18px;
+        }
 */
