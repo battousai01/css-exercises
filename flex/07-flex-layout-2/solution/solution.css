@@ -117,5 +117,44 @@ a {
                   display:  flex;
               }
 
-          
+          3.  Need the container to store the card item
+
+              <div class="container">
+                  <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet? Dolorem dignissimos maiores non delectus possimus dolor nulla repudiandae vitae provident quae, obcaecati ipsam unde impedit corrupti veritatis minima porro?</div>
+                  <div class="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quaerat qui iure ipsam maiores velit tempora, deleniti nesciunt fuga suscipit alias vero rem, corporis officia totam saepe excepturi odit ea.</div>
+                  <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?</div>
+                  <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!</div>
+                  <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?</div>
+                  <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!</div>
+                </div>
+              </div>
+
+          4.  We need the card display in row. Do this by display: flex in the card container
+
+              .container{
+                  display: flex;
+              }
+
+          5.  We need card item display in the square box. Do it by determine a width of card item.
+
+              .card{
+                  width: 300px;
+              }
+
+          6.  We need space between the card item and the card container. Do this by add padding in card container.
+
+              .container{
+                  display: flex;
+                  padding: 32px;
+              }
+
+          7.  We nedd space between each card item. Do this by add margin in the card item.
+
+              .card{
+                  display: flex;
+                  margin: 16px;
+              }
+  
+
+              
 */
