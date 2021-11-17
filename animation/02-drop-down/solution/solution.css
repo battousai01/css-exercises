@@ -45,13 +45,13 @@ We separated it out here to make it extra clear what has changed. */
 
 ul {
   overflow: hidden;
-  max-height: 0;
+  max-height: 0; /* make dropdown hidden when not hover */
   transition: max-height 0.25s ease-out;
 }
 
 .dropdown-menu:hover ul {
-  max-height: 500px;
-  transition: max-height 0.5s ease-out;
+  max-height: 500px; 
+  transition: max-height 0.5s ease-out;/* setting change state of height when hover over <ul> */
 }
 
 button:hover {
