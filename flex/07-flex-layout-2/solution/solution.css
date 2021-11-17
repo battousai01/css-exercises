@@ -154,6 +154,93 @@ a {
                   display: flex;
                   margin: 16px;
               }
+
+          8.  We need card item to display in flexible layout in the card container 
   
-              
+              .container{
+                    display: flex;
+                    padding: 32px;
+                    flex-wrap: wrap;
+              }
+
+         9. Setting Font style in header
+        
+              .header {
+                height: 72px;
+                background: darkmagenta;
+                color: white;
+                font-size: 32px;
+                weight: 900;
+              }
+
+        10. Set vertical center position for text in header
+
+              .header {
+                height: 72px;
+                background: darkmagenta;
+                color: white;
+                font-size: 32px;
+                weight: 900;
+                display: flex;
+                align-items: center;
+              }
+
+        11. Set space between header and edge of screen
+
+              .header {
+                height: 72px;
+                background: darkmagenta;
+                color: white;
+                font-size: 32px;
+                weight: 900;
+                display: flex;
+                align-items: center;
+                padding: 0 16px;
+              }
+
+        12. Set wide of sidebar
+
+              .sidebar{
+                  width: 300px;
+              }
+            
+        13. Force sidebar to not shrink
+
+              .sidebar{
+                  width: 300px;
+                  flex-shrink: 0;
+              }
+
+        14. Set center vertical and horizontal of text in footer
+
+              .footer{
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                }
+
+        15. Delete underline in sidebar
+
+              a{
+                  text-decoration: none;
+              }
+
+        16. Style text in sidebar
+
+              a{
+                  text-decoration: none;
+                  color: white;
+              }
+
+        17. Delete bullet from link
+
+              ul{
+                  list-style-type: none;
+              }       
+
+        18. Set space between the line of link
+
+            li{
+                margin-bottom: 10px;
+            }
 */
